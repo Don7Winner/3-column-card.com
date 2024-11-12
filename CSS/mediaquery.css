@@ -1,0 +1,65 @@
+@media (max-width: 1140px) {
+  body {
+    position: relative;
+    padding-bottom: 100px;
+  }
+  main {
+    width: 70%;
+  }
+}
+@media (max-width: 883px) {
+  main {
+    width: 90%;
+    height: 5%;
+  }
+}
+@media (max-width: 720px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 90%;
+  }
+  .section-Sedans {
+    border-radius: 0.5rem;
+    /* text-align: center; */
+  }
+  .section-SUSs {
+    border-radius: 0.5rem;
+    /* text-align: center; */
+  }
+  .section-Luxury {
+    grid-column: 1/ -1;
+    text-align: center;
+    width: 50%;
+    justify-self: center;
+
+    border-radius: 0.5rem;
+  }
+  button {
+    background-color: hsl(0, 0%, 95%);
+  }
+  .btn-sedans {
+    color: hsl(31, 77%, 52%);
+  }
+  .btn-SUSs {
+    color: hsl(184, 100%, 22%);
+  }
+  .btn-Luxury {
+    color: hsl(179, 100%, 13%);
+  }
+}
+@media (max-width: 500px) {
+  main {
+    grid-template-columns: 1fr;
+    width: 80%;
+  }
+  .section-Luxury {
+    width: 100%;
+    text-align: left;
+  }
+}
+@media (max-width: 406px) {
+  p {
+    margin-bottom: 2rem;
+  }
+}

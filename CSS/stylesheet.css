@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+  top: 100px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  width: 55%;
+}
+.section {
+  padding: 0 2rem;
+}
+.section-Sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.section-SUSs {
+  background-color: hsl(184, 100%, 22%);
+}
+.section-Luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+img {
+  margin: 2rem 0;
+}
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  height: 30%;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+}
+button {
+  background: none;
+  color: hsla(0, 0%, 100%, 0.75);
+  cursor: pointer;
+  border: 2px solid hsl(0, 0%, 95%);
+  padding: 0.4rem 1rem;
+  border-radius: 0.8rem;
+  margin-bottom: 2rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
