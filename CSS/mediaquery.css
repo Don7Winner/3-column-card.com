@@ -51,11 +51,23 @@
 @media (max-width: 500px) {
   main {
     grid-template-columns: 1fr;
+    gap: 0;
     width: 80%;
+    top: 10px;
+    bottom: 10px;
+  }
+  .section-Sedans {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .section-SUSs {
+    border-radius: 0;
   }
   .section-Luxury {
     width: 100%;
     text-align: left;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
 }
 @media (max-width: 406px) {
